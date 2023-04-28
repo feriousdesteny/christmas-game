@@ -5,29 +5,29 @@ body {
   text-align: center;
   width: ;
 }
-.sidenav {
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 20px;
-  left: 10px;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
+.topnav {
+  overflow: hidden;
+  background-color: #5586c9;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
-  display: block;
+  font-size: 17px;
 }
 
-.sidenav a:hover {
-  color: #064579;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
+.topnav a.active {
+  background-color: #942b88;
+  color: white;
+}
 .main {
   margin-left: 140px; /* Same width as the sidebar + left position in px */
   font-size: 28px; /* Increased text to enable scrolling */
